@@ -1,4 +1,10 @@
+gitignore
+.env
 build-assets.json
+config.js
+
+# Directories
+/node_modules/
 
 # OS
 # ===========
@@ -9,6 +15,7 @@ Thumbs.db
 
 # yarn berry
 # ==========================
+yarn.lock
 .yarn/*
 !.yarn/patches
 !.yarn/plugins

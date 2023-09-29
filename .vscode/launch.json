@@ -1,0 +1,12 @@
+{
+    "env": {"DISPLAY":"localhost:10.0"},
+    "configurations": [
+        {
+            "type": "firefox",
+            "name": "http://localhost:8081/db/simulations/data?query=%7Btype%3A%27average%27%7D%0D%0A&projection=",
+            "request": "launch",
+            "url": "http://localhost:8081/db/simulations/data?query=%7Btype%3A%27average%27%7D%0D%0A&projection=",
+            "runtimeExecutable": "/usr/bin/firefox"
+        }
+    ]
+}
